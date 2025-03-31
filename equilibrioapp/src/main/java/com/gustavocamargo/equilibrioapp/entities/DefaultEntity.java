@@ -8,12 +8,11 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 
+@MappedSuperclass
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-@Entity
-@Table(name = "defaultEntity")
 public abstract class DefaultEntity {
 
     @Id
